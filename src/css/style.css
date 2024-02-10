@@ -10,6 +10,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    font-family: Roboto;
 }
 
 header {
@@ -115,3 +116,49 @@ header {
     display: block;
     margin: 0 auto;
 }
+
+/* CONTENT */
+
+.content {
+    background-color: #EFEFEF;
+}
+
+.content__title {
+    padding: 85px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.content__line {
+    display: block;
+    margin: 0 auto;
+    padding: 18px 0 0 0;
+}
+
+.content__info {
+    padding: 20px 0 0 0;
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.content__blocks {
+    padding: 45px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__block__info {
+    padding: 26px 0 0 0;
+    width: 360px;
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* CONTENT */
