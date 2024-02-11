@@ -159,6 +159,44 @@ header {
     text-align: center;
     font-size: 18px;
     font-weight: 300;
+
 }
 
 /* CONTENT */
+
+
+
+/* INFO */
+
+.info {
+    margin: 50px 0 0 0;
+    position: relative;
+    display: flex;
+}
+
+.info__img {
+    width: 868px;
+    height: 502px;
+    position: absolute;
+    right: 500px;
+}
+
+.info__title {
+    margin: 61px 0 0 0;
+    padding: 0 0 25px 0;
+    color: #299CBD;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.info__text {
+    position: absolute;
+    right: 0;
+    color: #4A4A4A;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px; /* 158.824% */
+}
+
+/* INFO */
